@@ -1,6 +1,6 @@
 
 .bg { 
-    background: linear-gradient(to bottom, transparent, white), url("imgs/NNProduce.png");
+    background: linear-gradient(to bottom, transparent, white), url("imgs/Produce.png");
     
     background-position: center;
     background-repeat: no-repeat;
@@ -26,12 +26,9 @@
 }
 
 .hpButtons {
-    background-color: green;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 120px;
     padding-right: 120px;
-
-
 }
 .hpButtons .curved{
     background-color: red;
