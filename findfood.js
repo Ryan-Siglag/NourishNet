@@ -20,7 +20,7 @@ dataValues.addEventListener("submit", (e) => {
         document.getElementById("foodbanks").style.display = "inline";
 
         for (const [key, value] of Object.entries(data)) {
-            console.log(`${key}: ${value}`);
+            //console.log(`${key}: ${value}`);
             document.getElementById(key).innerHTML = value;
             
             // "<a href=\'#\'>Test</a> "
