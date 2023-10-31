@@ -163,8 +163,8 @@
     border-color: black;
     border-width: 2px;
 
-    max-width: 50%;
-    min-height: 100px;
+    width: 50%;
+    min-height: 50px;
 
     padding: 20px;
     margin: 50px;
