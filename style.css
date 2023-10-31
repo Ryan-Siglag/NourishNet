@@ -75,11 +75,15 @@
 }
 
 
-.zip {
+.zip, .gpt, #gptHolder, .chartHolder{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.zip h2, .gpt h2{
+    margin-top: 60px;
 }
 
 .zip input, .myButton{
@@ -131,6 +135,59 @@
 
 .exit{
     transform: rotateY(180deg);
-    width: 50px;
+    width: 30px;
     margin-left: 25px;
+}
+
+.title{
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+#gptHolder {
+    min-height: 200px;
+}
+
+.options {
+    max-width: 150px;
+}
+
+.gpt label{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.gptInfo{
+    background-color: bisque;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+
+    max-width: 50%;
+    min-height: 100px;
+
+    padding: 20px;
+    margin: 50px;
+
+    text-align: left;
+}
+
+.charts {
+    background-color: #095e00;
+    padding: 20px;
+    width: 45%;
+
+    margin: 60px;
+    border-radius: 25px;
+
+}
+
+#chart2{
+    margin: 0 auto;
+}
+
+#Source{
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
