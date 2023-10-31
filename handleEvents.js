@@ -47,6 +47,3 @@ dataValues.addEventListener("submit", (e) => {
         }
         
 });
-
-//Change box for loading
-//Make embeds larger
