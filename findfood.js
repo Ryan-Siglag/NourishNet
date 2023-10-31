@@ -13,7 +13,19 @@ dataValues.addEventListener("submit", (e) => {
     })
     .then(response => response.json())
     .then(data => {
-        console.log(data);
+        // for (var i = 0; i < data.; i++){
+        //     console.log(data[i]);
+        //     console.log("hi")
+        // }
+        document.getElementById("foodbanks").style.display = "inline";
+
+        for (const [key, value] of Object.entries(data)) {
+            //console.log(`${key}: ${value}`);
+            document.getElementById(key).innerHTML = value;
+            
+            // "<a href=\'#\'>Test</a> "
+
+          }
         
         //console.log(data["Info"]);
     })

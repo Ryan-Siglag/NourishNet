@@ -106,3 +106,31 @@
 	position:relative;
 	top:1px;
 }
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.results ul{
+    max-width: 50%;
+    display: none;
+}
+
+.results li{
+    font-size: larger;
+    color: #095e00;
+    margin: 10px;
+}
+
+.results li a{
+    color: #095e00;
+}
+
+.exit{
+    transform: rotateY(180deg);
+    width: 50px;
+    margin-left: 25px;
+}
